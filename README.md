@@ -35,4 +35,6 @@ root                    (project root folder)
 
 ## Authors
 ---
+Garrett Badger
+bad19005@byui.edu
 * TODO: Add your names and emails here

@@ -7,10 +7,11 @@ class Dealer:
         self.points = 300
 
     def get_card(self):
-        self.card = random.randint[1,13]
+        card = random.randint(1, 13)
+        self.card.append(card)
 
     def check_hilo(self):
-        new_card = random.randint[1,13]
+        new_card = random.randint(1,13)
         self.card.append(new_card)
         if self.card[0] > self.card[1]:
             if self.player.hilo == 'l':

@@ -31,7 +31,7 @@ class Director:
 
 
         if self.dealer.keep_playing:
-            choice = input('Keep playing? [y/n]')
+            choice = input("\033[1;37m Keep playing? [y/n]:\n")
             self.keep_playing = (choice == "y")
         else:
             self.keep_playing = False 

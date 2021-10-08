@@ -37,21 +37,13 @@ root                    (project root folder)
 ---
 Garrett Badger
 bad19005@byui.edu
+
+Corey Yeaman
+thechickenboss@byui.edu or coreyyea@gmail.com
 * TODO: Add your names and emails here
-
-
 
 Stewart Rowley
 row16006@byui.edu
 
-
-
-
-
-
-
-
-
-
-
-
+Kaden Spencer 
+kaspen24@gmail.com

@@ -24,3 +24,8 @@ class Dealer:
                 self.points -= 75
     
   
+    
+            
+    def check_points():
+        if compute_point() == 0:
+            print("Game Over")

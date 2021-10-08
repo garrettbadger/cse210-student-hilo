@@ -5,7 +5,7 @@ class Dealer:
 
     def get_card():
         card = random[1,14]
-        
+
     
     def compute_point(self):
         points = 300

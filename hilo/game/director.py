@@ -5,7 +5,7 @@ from game.player import Player
 class Director:
     def __init__(self):
         self.keep_playing = True
-        self.num_points = 300
+        self.score = 0
         self.dealer = Dealer()
         self.player = Player()
 
@@ -17,6 +17,7 @@ class Director:
 
     def get_inputs(self):
         self.player.get_highlo()
+    
 
     def do_updates(self):
         points = self.dealer.add_points()

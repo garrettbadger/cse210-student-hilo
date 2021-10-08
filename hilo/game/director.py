@@ -16,6 +16,7 @@ class Director:
             self.do_outputs()
 
     def get_inputs(self):
+        self.dealer.get_card()
         self.player.get_highlo()
     
 

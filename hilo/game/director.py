@@ -14,5 +14,5 @@ class Director:
             self.do_updates()
             self.do_outputs()
 
-    def get_inputs():
+    def get_inputs(self):
         self.player.get_highlo()

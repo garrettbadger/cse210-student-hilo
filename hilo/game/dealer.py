@@ -20,3 +20,6 @@ class Dealer:
         if self.player.hilo != "l":
             points -= 75
             
+    def check_points():
+        if compute_point() == 0:
+            print("Game Over")

@@ -13,7 +13,7 @@ class Dealer:
         card = random.randint(1, 13)
         self.card.append(card)
         i = len(self.card)
-        # print(f"Your card is {self.card[i-1]}")
+        
         print(f"\033[1;37m Your card is {self.card[i-1]}\n")
 
     def check_hilo(self):

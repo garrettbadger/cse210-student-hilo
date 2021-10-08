@@ -15,16 +15,20 @@ class Director:
             self.do_updates()
             self.do_outputs()
 
-    def get_inputs():
+    def get_inputs(self):
         self.player.get_highlo()
 
+    def do_updates(self):
+        points = self.dealer.add_points()
+        self.score += points
 
-def do_outputs(self):
-    if self.player.keep_playing():
-        choice = input('Keep playing? [y/n]')
-        self.keep_playing = (choice == "y")
-    else:
-        self.keep_playing = False 
+
+    def do_outputs(self):
+        if self.player.keep_playing():
+            choice = input('Keep playing? [y/n]')
+            self.keep_playing = (choice == "y")
+        else:
+            self.keep_playing = False 
 
 
 

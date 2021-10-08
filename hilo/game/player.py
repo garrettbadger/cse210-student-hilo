@@ -4,6 +4,6 @@ class Player:
         self.hilo = ''
 
     def get_highlo(self):
-        self.highlo = input("Higher or lower? [h/l]:")
+        self.hilo = input("Higher or lower? [h/l]:")
 
     

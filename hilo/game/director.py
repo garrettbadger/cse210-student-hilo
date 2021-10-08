@@ -17,16 +17,20 @@ class Director:
 
     def get_inputs(self):
         self.dealer.get_card()
-        self.player.get_highlo()
+        self.dealer.player.get_highlo()
+        self.dealer.check_hilo()
+        self.dealer.check_points()
     
 
     def do_updates(self):
-        points = self.dealer.compute_points()
+        points = self.dealer.points
         self.score += points
 
 
     def do_outputs(self):
-        if self.player.keep_playing():
+
+
+        if self.dealer.keep_playing:
             choice = input('Keep playing? [y/n]')
             self.keep_playing = (choice == "y")
         else:

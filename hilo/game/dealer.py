@@ -13,7 +13,8 @@ class Dealer:
         card = random.randint(1, 13)
         self.card.append(card)
         i = len(self.card)
-        print(f"Your card is {self.card[i-1]}")
+        # print(f"Your card is {self.card[i-1]}")
+        print(f"\033[1;37m Your card is {self.card[i-1]}\n")
 
     def check_hilo(self):
         new_card = random.randint(1,13)
@@ -23,14 +24,17 @@ class Dealer:
         if self.card[i-2] > self.card[i-1]:
             if self.player.hilo == 'l':
                 self.points += 100
+                print(f"\033[1;32m {self.points}\n")
             else:
                 self.points -= 75
+                print(f"\033[1;31m {self.points}\n")
         if self.card[i-2] < self.card[i-1]:
             if self.player.hilo == 'h':
                 self.points += 100
+                print(f"\033[1;32m {self.points}\n")
             else:
                 self.points -= 75
-        print(self.points)
+                print(f"\033[1;31m {self.points}\n")
     
   
     def check_points(self):

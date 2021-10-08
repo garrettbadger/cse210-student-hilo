@@ -20,7 +20,7 @@ class Director:
     
 
     def do_updates(self):
-        points = self.dealer.add_points()
+        points = self.dealer.compute_points()
         self.score += points
 
 
